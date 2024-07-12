@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+    <main class="main container">
+        <header class="cabecalho">
+            <img src="assets/logo.png" alt="logo do Harry Potter">
+        </header>
+
+        <div class="container-input">
+            <div class="input">
+                    <textarea id="input-texto" placeholder="Digite seu texto"></textarea>
+                    <span>Apenas letras minúsculas e sem acento.</span>              
+            </div>
+
+        <div id="output">
+            <img src="assets/ImagemHarry.png" alt="Desenho do harry potter montado em uma vassoura">
+            <h2>Nenhum vestígio de mensagem encontrado.</h2>
+            <p>Insira um encantamento secreto ou decifre o texto escondido que desejas revelar.</p>
+        </div>
+        </div>
+
+        <div class="buttons">
+            <div class="container-bnt">
+                <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="interact/script.js"></script>
+</body>
+
+</html>
